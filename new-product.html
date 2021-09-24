@@ -12,19 +12,52 @@
     />
     <title>New product</title>
   </head>
-  <body>
-    <form action="" class="container-fluid">
-     <h1>New Product</h1>
-
-
-
-
-     
+  <body class="bg-info">
+  <form action="" class="container-fluid p-5">
+     <h1 class="p-5">New Product</h1>
     <div class="row">
-    <div class="col-12 fs-3 pb-3">
-        <label for="category">Category</label>
+    <div class="col-12 fs-3 pt-5">
+      <label for="name">Name:</label>
+    </div>
+    <div class="col3">
+      <input type="text" placeholder="Enter name">
+    </div>
+    <div class="col-12 fs-3 pt-5">
+      <label for="name">Description:</label>
+    </div>
+    <div class="col-5">
+      <div class="form-outline">
+        <textarea class="form-control" id="textAreaExample1" rows="4"placeholder="Enter description"></textarea>
+      </div>
+    </div>
+    <div class="col-12 fs-3 pt-5">
+      <label for="name">Image:</label>
+    </div>
+    </div class="col-3 p-2"> 
+      <button class="mt-3">Choose file</button>
+    <div class="col-12 fs-3 pt-5">
+      <div class="col-12 fs-3 pt-5">
+        <label for="name">Article number (AAA-AA11):</label>
     </div>
     <div class="col-3">
+        <input type="text" placeholder="Enter article number">
+    </div>
+    <div class="col-12 fs-3 pt-5">
+      <label for="name">Price:</label>
+    </div>
+    <div class="col-3">
+      <input type="text">
+    </div>
+    <div class="col-12 fs-3 pt-5">
+      <label for="name">Publish Date:</label>
+    </div>
+    <div class="col-3 pt-3">
+      <input type="date" name="date">
+    </div>
+    <div class="col-12 fs-3 pt-5">
+        <label for="category">Category</label>
+    </div>
+    <div class="col-2 pt-3">
     <select class="form-select" aria-label="Default select example">
         <option selected>Select Category</option>
         <option value="1">Dresses</option>
@@ -32,9 +65,9 @@
         <option value="3">Shoes</option>
       </select>
     </div>
-    </div class="col-12"> 
-      <button class=" fs-3 m-5 p-3">Add product</button>
+    </div class="col-12 p-5"> 
+      <button class="fs-3 mt-5">Add product</button>
     </div>
-    </form>
+  </form>
   </body>
 </html>
