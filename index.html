@@ -17,56 +17,48 @@
   <body class="p-3">
   
     <header>
-      <div class=" container-fluid p-5  head">
+      <div class=" container-fluid p-5 head">
           <div class="row align-items-center pb-3">
-              <div class="col-2">
-                  <img src="https://via.placeholder.com/300x200.png" />
+              <div class="col-12 col-sm-2 p-0">
+                  <img class="img-fluid" src="https://via.placeholder.com/400x300.png" />
               </div>
-              <div class="col-2">
-                  <input type="search" placeholder="search">
+              <div class=" col-12 col-sm-2 p-5 pb-0">
+                  <input class="fs-2" type="search" placeholder="search">
               </div>
           </div>
-          <div class="row pt-3">
-              <ul class="nav fs-2">
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Nyheter</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Kategorier</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Topplistan</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-dark" href="#">Rea</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link text-dark" href="#">Kampanjer</a>
-                    </li>
-                </ul>
+          <div class="row p-3 pb-0">
+            <div class="col-sm-5 p-0 ">
+              <ul class="list-group list-group-horizontal-sm justify-content-between pb-1">
+                <li class="col-sm-1 d-flex fs-4 "><a href="#" class="text-dark text-decoration-none">Nyheter</a></li>
+                <li class="col-sm-1 d-flex fs-4 "><a href="#" class="text-dark text-decoration-none">Kategorier</a></li>
+                <li class="col-sm-1 d-flex fs-4 "><a href="#" class="text-dark text-decoration-none">Topplistan</a></li>
+                <li class="col-sm-1 d-flex fs-4 "><a href="#" class="text-dark text-decoration-none">Rea</a></li>
+                <li class="col-sm-1 d-flex fs-4 "><a href="#" class="text-dark text-decoration-none">Kampanjer</a></li>
+              </ul>
+            </div>
           </div>
-  
       </div>
     </header>
-    <div class="container-fluid p-5 pt-0 hero">
-      <div class="row justify-content-between border border-5 p-5">
-        <div class="col-4 p-5">
+    <main>
+    <article class="container-fluid p-5 pt-0 hero">
+      <div class="row justify-content-between border border-3 p-3">
+        <div class="col-12 col-sm-7 order-sm-2 p-0">
+            <img class="img-fluid" src="https://via.placeholder.com/1150x500.png" />
+        </div>
+        <div class="col-12 col-sm-4 p-5 order-sm-1">
           <h1>Lorem ipsum dolor</h1>
           <p class="fs-4 p-2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae
             doloremque odio maxime maiores fugit, pariatur tenetur, asperiores
-            libero nobis nostrum numquam, voluptate cumque ex? In totam quos
-            veniam fuga repudiandae!
+            libero nobis nostrum numquam.
           </p>
-          <button class="fs-2 p-4">Lorem ipsum</button>
-        </div>
-        <div class="col-7 m-3 me-5">
-          <img src="https://via.placeholder.com/1150x500.png" />
+          <button class="fs-sm-2 p-4">Lorem ipsum</button>
         </div>
       </div>
-    </div>
+    </article>
+  
 
-    <div class="container-fluid p-0 spots">
+    <section class="container-fluid d-none d-sm-block p-0 spots">
       <div class="row justify-content-around my-row">
         <div class="col-4 p-5">
             <figure class="figure border border-5 fs-1">
@@ -89,12 +81,12 @@
               </figure>
             </div>
       </div>
-    </div>
+    </section>
     <h2 class="text-center p-5">Populära Produkter</h2>
 
-    <div class="container-fluid p-0 grid">
+    <section class="container-fluid p-0">
       <div class="row justify-content-around">
-        <div class="col-3 p-5">
+        <div class="col-sm-3 p-5">
           <img src="https://via.placeholder.com/400x600.png" />
           <div class="row">
             <div class="col 15 fs-2">
@@ -105,7 +97,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 p-5">
+        <div class="col-sm-3 p-5">
           <img src="https://via.placeholder.com/400x600.png" />
           <div class="row">
             <div class="col 1 fs-2">
@@ -116,7 +108,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 p-5">
+        <div class="col-sm-3 p-5">
           <img src="https://via.placeholder.com/400x600.png" />
           <div class="row">
             <div class="col 1 fs-2">
@@ -127,7 +119,7 @@
             </div>
           </div>
         </div>
-        <div class="col-3 p-5">
+        <div class="col-sm-3 p-5">
           <img src="https://via.placeholder.com/400x600.png" />
           <div class="row">
               <div class="col 1 fs-2">
@@ -141,7 +133,7 @@
       </div>
 
       <div class="row justify-content-around ">
-        <div class="col-3 p-5">
+        <div class="col-sm-3 p-5">
             <img src="https://via.placeholder.com/400x600.png" />
             <div class="row">
               <div class="col 1 fs-2">
@@ -152,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 p-5">
+          <div class="col-sm-3 p-5">
             <img src="https://via.placeholder.com/400x600.png" />
             <div class="row">
               <div class="col 1 fs-2">
@@ -163,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 p-5">
+          <div class="col-sm-3 p-5">
             <img src="https://via.placeholder.com/400x600.png" />
             <div class="row">
               <div class="col 1 fs-2">
@@ -174,7 +166,7 @@
               </div>
             </div>
           </div>
-          <div class="col-3 p-5">
+          <div class="col-sm-3 p-5">
             <img src="https://via.placeholder.com/400x600.png" />
             <div class="row">
               <div class="col 1 fs-2">
@@ -186,19 +178,21 @@
             </div>
           </div>
       </div>
-    </div>
-
+    </section>
+  </main>
     <footer class="p-3">
       <div class="row p-5 pt-0">
-        <ul class="list-group list-group-horizontal pb-5">
-          <li class="col-3 d-flex justify-content-center fs-2">Gratis Frakt och Returer</li>
-          <li class="col-3 d-flex justify-content-center fs-2">Expressfrakt</li>
-          <li class="col-3 d-flex justify-content-center fs-2">Säkra betalningar</li>
-          <li class="col-3 d-flex justify-content-center fs-2">Nyheter varje dag</li>
-        </ul>
+        <div class="col-sm-12">
+          <ul class="list-group list-group-horizontal-sm pb-5">
+            <li class="col-sm-3 d-flex justify-content-center fs-2">Gratis Frakt och Returer</li>
+            <li class="col-sm-3 d-flex justify-content-center fs-2">Expressfrakt</li>
+            <li class="col-sm-3 d-flex justify-content-center fs-2">Säkra betalningar</li>
+            <li class="col-sm-3 d-flex justify-content-center fs-2">Nyheter varje dag</li>
+          </ul>
+        </div>
       </div>
       <div class="row">
-        <div class="col-2">
+        <div class="col-sm-2">
           <h3 class="p-3">Shopping</h3>
           <ul class="nav flex-column fs-4">
             <li class="nav-item ">
@@ -216,18 +210,18 @@
           </ul>
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-sm-2">
           <h3 class="p-3">Mina Sidor</h3>
           <ul class="nav flex-column fs-4">
             <li class="nav-item">
-              <a class="nav-link text-dark" href="#">Mina Ordra</a>
+              <a class="nav-link text-dark" href="#">Mina Ordrar</a>
             </li>
             <li class="nav-item">
               <a class="nav-link text-dark" href="#">Mitt Konto</a>
             </li>
           </ul>
         </div>
-        <div class="col-2">
+        <div class="col-sm-2">
           <h3 class="p-3">Kundtjänst</h3>
           <ul class="nav flex-column fs-4">
             <li class="nav-item">
@@ -239,7 +233,7 @@
           </ul>
         </div>
       </div>
-      <small class="d-flex justify-content-center fs-3 p-3">Copyright 2021 Filip</small>
+      <small class="d-flex justify-content-center fs-3 p-5">Copyright 2021 Filip</small>
     </footer>
 
   </body>
